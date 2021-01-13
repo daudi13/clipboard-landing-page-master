@@ -8,6 +8,8 @@
   
   <title>Frontend Mentor | Clipboard landing page</title>
 
+  <link rel="stylesheet" href="./CSS/style.css">
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -17,7 +19,7 @@
 <body>
   <div class="container">
     <section class="intro-section">
-      <img src="./images/logo.svg" alt="" class="intro-section">
+      <img src="./images/logo.svg" alt="" class="intro-logo">
       <h1 class="intro-section__heading">A history of everything you copy</h1>
       <p class="text intro-section__text">
         Clipboard allows you to track and organize everything you
@@ -36,7 +38,6 @@
         <p class="text">Clipboard instantly stores any item you copy in the cloud,
           meaning you can access your snippets immediately on all your
           devices. Our Mac and iOS apps will help you organize everything.</p>
-        img
       </div>
       <div class="feature-box">
         <img src="./images/image-computer.png" alt="">
@@ -55,10 +56,15 @@
       </div>
     </section>
     <section class="section-access">
-      <div class="intro-box">
+      <div class="intro-box box-1">
         <h2 class="section__heading">Access Clipboard anywhere</h3>
         <p class="text">Whether you’re on the go, or at your computer, you can access all your Clipboard
         snippets in a few simple clicks.</p>
+        <img src="./images/image-devices.png" alt="">
+      </div>
+      <div class="intro-box box-2">
+        <h2 class="section__heading">Supercharge your workflow</h3>
+          <p class="text">We’ve got the tools to boost your productivity.</p>
       </div>
       <div class="box access--one">
         <img src="./images/icon-blacklist.svg" alt="">
@@ -121,10 +127,10 @@
         <a href="#" class="icons"><img src="/images/icon-instagram.svg" alt=""></a>
       </div>
     </div>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
   </footer>
+  <p class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </p>
 </body>
 </html>
